@@ -11,9 +11,10 @@ namespace weatherapi.Controllers
     [Route("[controller]")]
     public class WeatherForecastController : ControllerBase
     {
+        //"Freezing", "Bracing", "Chilly", "Cool", "Mild", "Warm", "Balmy", "Hot", "Sweltering", "Scorching"
         private static readonly string[] Summaries = new[]
         {
-            "Freezing", "Bracing", "Chilly", "Cool", "Mild", "Warm", "Balmy", "Hot", "Sweltering", "Scorching"
+            "Prabesh", "Prabesh", "Priya", "Deepa", "Priya", "Rekha", "Pradip", "Bishnu", "Tara", "Jyotee"
         };
 
         private readonly ILogger<WeatherForecastController> _logger;
